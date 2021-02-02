@@ -1,2 +1,2 @@
-export.perimiter = (x,y) => (2*(x+y));
-export.area = (x,y) => (x*y);
+exports.perimeter = (x,y) => (2*(x+y));
+exports.area = (x,y) => (x*y);
