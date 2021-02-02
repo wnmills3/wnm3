@@ -1,0 +1,21 @@
+We come to the final assignment of this course. In this fourth assignment, you're going to work with bootstraps, JQuery support and also a little bit of Sass. This assignment consists of four tasks. 
+
+Your first task would be to remove all that data-attributes from both the login link here and the reserve of tables here. 
+
+Now, in this assignment, we are going to trigger the models using JavaScript code. So, to do that, we'll first remove the data-attributes, both from the reserve model and the login model as our first task in this assignment. 
+
+Your second task is to add appropriate JavaScript code by using the models methods, JavaScript methods that are available, such that when the reserve table pattern is clicked, then the corresponding reserve model will be displayed as seen here. So, we see that this showing and hiding of the model is triggered completely using the JavaScript methods of that model.
+
+ Your third task would be to, again, insert appropriate code into the script such that when you click on the login link here, the login model will be displayed. 
+ 
+ Now, in order for this to work, you need to give appropriate IDs both to the reserve table button and the login link such that they can then be referenced in your JavaScript code. So, that's a hint for you, how you can go ahead and proceed with the implementation of this. The use of the JavaScript methods should be quite straightforward. The link to the bootstrap documentation describing the JavaScript methods is available in the additional resources section of this assignment. 
+ 
+ As you might have already realized that these models now look a lot more colorful. So here is the reserve table model, and here is the login model. So, as part of the fourth task of this assignment, you're going to add in some SCSS code into the styles start SCSS file, such that the colors are appropriately set. 
+ 
+ So here, you see that that model header has the background dark color set and the text here is displayed in white color. 
+ 
+ And also, this particular class by using a nested class here in your SCSS code, you can define this also to use a flat or white color here. 
+ 
+ Then the model body itself uses the pale background color. So, insert appropriate SCSS code into your style start SCSS file to enable this to work for the reserve model of header and the body, so you can see that the same background dark color is applied to the header and the background pale color is applied to the body of your model. 
+ 
+ And upon completing this assignment, you may wish to do a good comment to save your changes with the message assignment four.

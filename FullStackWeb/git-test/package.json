@@ -1,0 +1,23 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node",
+  "main": "index.html",
+  "repository": "https://wnmills3@bitbucket.org/wnmills3/git-test.git",
+  "author": "Nathaniel Mills <wnm3@us.ibm.com>",
+  "license": "Apache 2.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.6.1",
+    "popper.js": "^1.16.1"
+  }
+}
