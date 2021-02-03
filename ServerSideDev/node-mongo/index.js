@@ -6,7 +6,6 @@ const url = 'mongodb://localhost:27017/';
 const dbname = 'conFusion';
 
 MongoClient.connect(url).then((client) => {
-    // assert.strictEqual(err, null);
     console.log('Connected correctly to the server');
 
     const db = client.db(dbname);
@@ -32,7 +31,7 @@ MongoClient.connect(url).then((client) => {
         })
         .then((result) => {
             console.log('Dropped Collection: ', result);
-            client.close();
+            return client.close();
         })
         .catch((err) => console.log(err));
 })
