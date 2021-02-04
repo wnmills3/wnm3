@@ -7,7 +7,7 @@ const Currency = mongoose.Types.Currency;
 const commentSchema = new Schema({
     rating: {
         type: Number,
-        min: 1, 
+        min: 1,
         max: 5,
         required: true
     },
@@ -19,7 +19,7 @@ const commentSchema = new Schema({
         type: String,
         required: true
     }
-},{
+}, {
     timestamps: true
 });
 
@@ -28,6 +28,10 @@ const dishSchema = new Schema({
         type: String,
         required: true,
         unique: true
+    },
+    description: {
+        type: String,
+        required: true
     },
     image: {
         type: String,
@@ -50,12 +54,8 @@ const dishSchema = new Schema({
         type: Boolean,
         default: false
     },
-    description: {
-        type: String,
-        required: true
-    },
-    comments: [ commentSchema]
-},{
+    comments: [commentSchema]
+}, {
     timestamps: true
 });
 
