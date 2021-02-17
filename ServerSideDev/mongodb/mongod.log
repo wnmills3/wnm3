@@ -382,3 +382,74 @@
 {"t":{"$date":"2021-02-16T21:22:05.752-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn110","msg":"client metadata","attr":{"remote":"127.0.0.1:49524","client":"conn110","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
 {"t":{"$date":"2021-02-16T21:22:16.245-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:49552","connectionId":111,"connectionCount":7}}
 {"t":{"$date":"2021-02-16T21:22:16.252-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn111","msg":"client metadata","attr":{"remote":"127.0.0.1:49552","client":"conn111","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
+{"t":{"$date":"2021-02-16T21:36:50.280-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn111","msg":"Connection ended","attr":{"remote":"127.0.0.1:49552","connectionId":111,"connectionCount":6}}
+{"t":{"$date":"2021-02-16T21:36:50.280-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn110","msg":"Connection ended","attr":{"remote":"127.0.0.1:49524","connectionId":110,"connectionCount":5}}
+{"t":{"$date":"2021-02-16T21:36:50.280-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn109","msg":"Connection ended","attr":{"remote":"127.0.0.1:49523","connectionId":109,"connectionCount":3}}
+{"t":{"$date":"2021-02-16T21:36:50.280-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn107","msg":"Connection ended","attr":{"remote":"127.0.0.1:49521","connectionId":107,"connectionCount":4}}
+{"t":{"$date":"2021-02-16T21:36:50.280-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn108","msg":"Connection ended","attr":{"remote":"127.0.0.1:49522","connectionId":108,"connectionCount":2}}
+{"t":{"$date":"2021-02-16T21:36:50.574-05:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn106","msg":"Interrupted operation as its client disconnected","attr":{"opId":211314}}
+{"t":{"$date":"2021-02-16T21:36:50.579-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn106","msg":"Connection ended","attr":{"remote":"127.0.0.1:49520","connectionId":106,"connectionCount":1}}
+{"t":{"$date":"2021-02-16T21:36:53.925-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:52359","connectionId":112,"connectionCount":2}}
+{"t":{"$date":"2021-02-16T21:36:53.930-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn112","msg":"client metadata","attr":{"remote":"127.0.0.1:52359","client":"conn112","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
+{"t":{"$date":"2021-02-16T21:36:53.943-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:52360","connectionId":113,"connectionCount":3}}
+{"t":{"$date":"2021-02-16T21:36:53.946-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:52361","connectionId":114,"connectionCount":4}}
+{"t":{"$date":"2021-02-16T21:36:53.946-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn113","msg":"client metadata","attr":{"remote":"127.0.0.1:52360","client":"conn113","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
+{"t":{"$date":"2021-02-16T21:36:53.950-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:52362","connectionId":115,"connectionCount":5}}
+{"t":{"$date":"2021-02-16T21:36:53.950-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn114","msg":"client metadata","attr":{"remote":"127.0.0.1:52361","client":"conn114","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
+{"t":{"$date":"2021-02-16T21:36:53.954-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn115","msg":"client metadata","attr":{"remote":"127.0.0.1:52362","client":"conn115","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
+{"t":{"$date":"2021-02-16T21:36:53.954-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:52363","connectionId":116,"connectionCount":6}}
+{"t":{"$date":"2021-02-16T21:36:53.960-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn116","msg":"client metadata","attr":{"remote":"127.0.0.1:52363","client":"conn116","doc":{"driver":{"name":"nodejs|Mongoose","version":"3.6.3"},"os":{"type":"Darwin","name":"darwin","architecture":"x64","version":"20.3.0"},"platform":"'Node.js v14.15.0, LE (unified)","version":"3.6.3|5.11.15"}}}
+{"t":{"$date":"2021-02-16T21:37:02.942-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn115","msg":"Connection ended","attr":{"remote":"127.0.0.1:52362","connectionId":115,"connectionCount":5}}
+{"t":{"$date":"2021-02-16T21:37:02.942-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn114","msg":"Connection ended","attr":{"remote":"127.0.0.1:52361","connectionId":114,"connectionCount":3}}
+{"t":{"$date":"2021-02-16T21:37:02.942-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn113","msg":"Connection ended","attr":{"remote":"127.0.0.1:52360","connectionId":113,"connectionCount":2}}
+{"t":{"$date":"2021-02-16T21:37:02.942-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn116","msg":"Connection ended","attr":{"remote":"127.0.0.1:52363","connectionId":116,"connectionCount":4}}
+{"t":{"$date":"2021-02-16T21:37:03.563-05:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn112","msg":"Interrupted operation as its client disconnected","attr":{"opId":211422}}
+{"t":{"$date":"2021-02-16T21:37:03.567-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn112","msg":"Connection ended","attr":{"remote":"127.0.0.1:52359","connectionId":112,"connectionCount":1}}
+{"t":{"$date":"2021-02-16T21:37:12.763-05:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn1","msg":"Connection ended","attr":{"remote":"127.0.0.1:56690","connectionId":1,"connectionCount":0}}
+{"t":{"$date":"2021-02-16T21:37:23.332-05:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:52421","connectionId":117,"connectionCount":1}}
+{"t":{"$date":"2021-02-16T21:37:23.335-05:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn117","msg":"client metadata","attr":{"remote":"127.0.0.1:52421","client":"conn117","doc":{"application":{"name":"MongoDB Shell"},"driver":{"name":"MongoDB Internal Client","version":"4.4.3"},"os":{"type":"Darwin","name":"Mac OS X","architecture":"x86_64","version":"20.3.0"}}}}
+{"t":{"$date":"2021-02-16T21:37:36.758-05:00"},"s":"I",  "c":"COMMAND",  "id":20475,   "ctx":"conn117","msg":"Terminating via shutdown command","attr":{"cmdObj":{"shutdown":1.0,"lsid":{"id":{"$uuid":"dc52252b-2034-4560-bbb0-918cef076ce7"}},"$db":"admin"}}}
+{"t":{"$date":"2021-02-16T21:37:36.762-05:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"conn117","msg":"Shutting down the MirrorMaestro"}
+{"t":{"$date":"2021-02-16T21:37:36.764-05:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"conn117","msg":"Shutting down the WaitForMajorityService"}
+{"t":{"$date":"2021-02-16T21:37:36.767-05:00"},"s":"I",  "c":"CONTROL",  "id":4784903, "ctx":"conn117","msg":"Shutting down the LogicalSessionCache"}
+{"t":{"$date":"2021-02-16T21:37:36.770-05:00"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"conn117","msg":"Shutdown: going to close listening sockets"}
+{"t":{"$date":"2021-02-16T21:37:36.772-05:00"},"s":"I",  "c":"NETWORK",  "id":23017,   "ctx":"listener","msg":"removing socket file","attr":{"path":"/tmp/mongodb-27017.sock"}}
+{"t":{"$date":"2021-02-16T21:37:36.775-05:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"conn117","msg":"Shutting down the global connection pool"}
+{"t":{"$date":"2021-02-16T21:37:36.777-05:00"},"s":"I",  "c":"STORAGE",  "id":4784906, "ctx":"conn117","msg":"Shutting down the FlowControlTicketholder"}
+{"t":{"$date":"2021-02-16T21:37:36.779-05:00"},"s":"I",  "c":"-",        "id":20520,   "ctx":"conn117","msg":"Stopping further Flow Control ticket acquisitions."}
+{"t":{"$date":"2021-02-16T21:37:36.781-05:00"},"s":"I",  "c":"STORAGE",  "id":4784908, "ctx":"conn117","msg":"Shutting down the PeriodicThreadToAbortExpiredTransactions"}
+{"t":{"$date":"2021-02-16T21:37:36.784-05:00"},"s":"I",  "c":"STORAGE",  "id":4784934, "ctx":"conn117","msg":"Shutting down the PeriodicThreadToDecreaseSnapshotHistoryCachePressure"}
+{"t":{"$date":"2021-02-16T21:37:36.786-05:00"},"s":"I",  "c":"REPL",     "id":4784909, "ctx":"conn117","msg":"Shutting down the ReplicationCoordinator"}
+{"t":{"$date":"2021-02-16T21:37:36.789-05:00"},"s":"I",  "c":"SHARDING", "id":4784910, "ctx":"conn117","msg":"Shutting down the ShardingInitializationMongoD"}
+{"t":{"$date":"2021-02-16T21:37:36.791-05:00"},"s":"I",  "c":"REPL",     "id":4784911, "ctx":"conn117","msg":"Enqueuing the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2021-02-16T21:37:36.793-05:00"},"s":"I",  "c":"-",        "id":4784912, "ctx":"conn117","msg":"Killing all operations for shutdown"}
+{"t":{"$date":"2021-02-16T21:37:36.795-05:00"},"s":"I",  "c":"-",        "id":4695300, "ctx":"conn117","msg":"Interrupted all currently running operations","attr":{"opsKilled":3}}
+{"t":{"$date":"2021-02-16T21:37:36.798-05:00"},"s":"I",  "c":"COMMAND",  "id":4784913, "ctx":"conn117","msg":"Shutting down all open transactions"}
+{"t":{"$date":"2021-02-16T21:37:36.800-05:00"},"s":"I",  "c":"REPL",     "id":4784914, "ctx":"conn117","msg":"Acquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2021-02-16T21:37:36.802-05:00"},"s":"I",  "c":"INDEX",    "id":4784915, "ctx":"conn117","msg":"Shutting down the IndexBuildsCoordinator"}
+{"t":{"$date":"2021-02-16T21:37:36.804-05:00"},"s":"I",  "c":"REPL",     "id":4784916, "ctx":"conn117","msg":"Reacquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2021-02-16T21:37:36.807-05:00"},"s":"I",  "c":"REPL",     "id":4784917, "ctx":"conn117","msg":"Attempting to mark clean shutdown"}
+{"t":{"$date":"2021-02-16T21:37:36.809-05:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"conn117","msg":"Shutting down the ReplicaSetMonitor"}
+{"t":{"$date":"2021-02-16T21:37:36.811-05:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"conn117","msg":"Shutting down the MigrationUtilExecutor"}
+{"t":{"$date":"2021-02-16T21:37:36.813-05:00"},"s":"I",  "c":"CONTROL",  "id":4784925, "ctx":"conn117","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2021-02-16T21:37:36.815-05:00"},"s":"I",  "c":"CONTROL",  "id":20609,   "ctx":"conn117","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2021-02-16T21:37:36.817-05:00"},"s":"I",  "c":"STORAGE",  "id":4784927, "ctx":"conn117","msg":"Shutting down the HealthLog"}
+{"t":{"$date":"2021-02-16T21:37:36.820-05:00"},"s":"I",  "c":"STORAGE",  "id":4784929, "ctx":"conn117","msg":"Acquiring the global lock for shutdown"}
+{"t":{"$date":"2021-02-16T21:37:36.822-05:00"},"s":"I",  "c":"STORAGE",  "id":4784930, "ctx":"conn117","msg":"Shutting down the storage engine"}
+{"t":{"$date":"2021-02-16T21:37:36.824-05:00"},"s":"I",  "c":"STORAGE",  "id":20282,   "ctx":"conn117","msg":"Deregistering all the collections"}
+{"t":{"$date":"2021-02-16T21:37:36.826-05:00"},"s":"I",  "c":"STORAGE",  "id":22261,   "ctx":"conn117","msg":"Timestamp monitor shutting down"}
+{"t":{"$date":"2021-02-16T21:37:36.828-05:00"},"s":"I",  "c":"STORAGE",  "id":22317,   "ctx":"conn117","msg":"WiredTigerKVEngine shutting down"}
+{"t":{"$date":"2021-02-16T21:37:36.830-05:00"},"s":"I",  "c":"STORAGE",  "id":22318,   "ctx":"conn117","msg":"Shutting down session sweeper thread"}
+{"t":{"$date":"2021-02-16T21:37:36.833-05:00"},"s":"I",  "c":"STORAGE",  "id":22319,   "ctx":"conn117","msg":"Finished shutting down session sweeper thread"}
+{"t":{"$date":"2021-02-16T21:37:36.835-05:00"},"s":"I",  "c":"STORAGE",  "id":22320,   "ctx":"conn117","msg":"Shutting down journal flusher thread"}
+{"t":{"$date":"2021-02-16T21:37:36.837-05:00"},"s":"I",  "c":"STORAGE",  "id":22321,   "ctx":"conn117","msg":"Finished shutting down journal flusher thread"}
+{"t":{"$date":"2021-02-16T21:37:36.839-05:00"},"s":"I",  "c":"STORAGE",  "id":22322,   "ctx":"conn117","msg":"Shutting down checkpoint thread"}
+{"t":{"$date":"2021-02-16T21:37:36.841-05:00"},"s":"I",  "c":"STORAGE",  "id":22323,   "ctx":"conn117","msg":"Finished shutting down checkpoint thread"}
+{"t":{"$date":"2021-02-16T21:37:36.843-05:00"},"s":"I",  "c":"STORAGE",  "id":4795902, "ctx":"conn117","msg":"Closing WiredTiger","attr":{"closeConfig":"leak_memory=true,"}}
+{"t":{"$date":"2021-02-16T21:37:37.110-05:00"},"s":"I",  "c":"STORAGE",  "id":4795901, "ctx":"conn117","msg":"WiredTiger closed","attr":{"durationMillis":267}}
+{"t":{"$date":"2021-02-16T21:37:37.112-05:00"},"s":"I",  "c":"STORAGE",  "id":22279,   "ctx":"conn117","msg":"shutdown: removing fs lock..."}
+{"t":{"$date":"2021-02-16T21:37:37.115-05:00"},"s":"I",  "c":"-",        "id":4784931, "ctx":"conn117","msg":"Dropping the scope cache for shutdown"}
+{"t":{"$date":"2021-02-16T21:37:37.118-05:00"},"s":"I",  "c":"FTDC",     "id":4784926, "ctx":"conn117","msg":"Shutting down full-time data capture"}
+{"t":{"$date":"2021-02-16T21:37:37.120-05:00"},"s":"I",  "c":"FTDC",     "id":20626,   "ctx":"conn117","msg":"Shutting down full-time diagnostic data capture"}
+{"t":{"$date":"2021-02-16T21:37:37.122-05:00"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"conn117","msg":"Now exiting"}
+{"t":{"$date":"2021-02-16T21:37:37.125-05:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"conn117","msg":"Shutting down","attr":{"exitCode":0}}
