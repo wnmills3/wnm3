@@ -39,19 +39,20 @@ exports.jwtPassport = passport.use(new JwtStrategy(opts,
 
 exports.verifyUser = passport.authenticate('jwt', { session: false });
 exports.verifyOrdinaryUser = function (req, res, next) {
-    const usertoken = req.headers.authorization;
-    const token = usertoken.split(' ');
-    const decoded = jwt.verify(token[1], config.secretKey);
-    // console.log(decoded);
-    User.findOne({ _id: decoded._id }, (err, user) => {
-        if (err) {
-            return next(err);
-        }
-        else if (user) {
-            req.user = user;
-            return next();
-        }
-    });
+    // const usertoken = req.headers.authorization;
+    // const token = usertoken.split(' ');
+    // const decoded = jwt.verify(token[1], config.secretKey);
+    // // console.log(decoded);
+    // User.findOne({ _id: decoded._id }, (err, user) => {
+    //     if (err) {
+    //         return next(err);
+    //     }
+    //     else if (user) {
+    //         req.user = user;
+    //         return next();
+    //     }
+    // });
+    return next();
 };
 exports.verifyAdmin = function (req, res, next) {
     console.log("User: \n" + req.user);

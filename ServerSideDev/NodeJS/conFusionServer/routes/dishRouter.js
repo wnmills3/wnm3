@@ -19,7 +19,6 @@ dishRouter.route('/')
             .catch((err) => next(err));
     })
     .post(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             Dishes.create(req.body)
                 .then((dish) => {
@@ -31,13 +30,11 @@ dishRouter.route('/')
                 .catch((err) => next(err));
         })
     .put(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             res.statusCode = 403;
             res.end('PUT operation not supported on /dishes');
         })
     .delete(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             Dishes.remove({})
                 .then((resp) => {
@@ -60,13 +57,11 @@ dishRouter.route('/:dishId')
             .catch((err) => next(err));
     })
     .post(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             res.statusCode = 403;
             res.end('POST operation not supported on /dishes/' + req.params.dishId);
         })
     .put(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             Dishes.findByIdAndUpdate(req.params.dishId, {
                 $set: req.body
@@ -79,7 +74,6 @@ dishRouter.route('/:dishId')
                 .catch((err) => next(err));
         })
     .delete(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             Dishes.findByIdAndRemove(req.params.dishId)
                 .then((resp) => {
@@ -139,7 +133,6 @@ dishRouter.route('/:dishId/comments')
             + req.params.dishId + '/comments');
     })
     .delete(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         authenticate.verifyAdmin, (req, res, next) => {
             Dishes.findById(req.params.dishId)
                 .then((dish) => {
@@ -192,7 +185,6 @@ dishRouter.route('/:dishId/comments/:commentId')
             + '/comments/' + req.params.commentId);
     })
     .put(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         (req, res, next) => {
             Dishes.findById(req.params.dishId)
                 .then((dish) => {
@@ -237,7 +229,6 @@ dishRouter.route('/:dishId/comments/:commentId')
                 .catch((err) => next(err));
         })
     .delete(authenticate.verifyUser,
-        authenticate.verifyOrdinaryUser,
         (req, res, next) => {
             Dishes.findById(req.params.dishId)
                 .then((dish) => {
