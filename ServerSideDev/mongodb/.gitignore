@@ -1,2 +1,2 @@
-data
-mongod.log
+/data
+/mongod.log
